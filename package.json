@@ -1,0 +1,30 @@
+{
+  "name": "elden_ring_countdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luca-Terrazzan/elden_ring_countdown_bot.git"
+  },
+  "keywords": [
+    "discord",
+    "eldenring",
+    "bot"
+  ],
+  "author": "Luca Terrazzan <luca.terraz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luca-Terrazzan/elden_ring_countdown_bot/issues"
+  },
+  "homepage": "https://github.com/Luca-Terrazzan/elden_ring_countdown_bot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
