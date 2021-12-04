@@ -19,7 +19,8 @@ module.exports = {
   ],
   'ignorePatterns': ['dist/**'],
   'rules': {
-    'valid-jsdoc': 'off',
+    'require-jsdoc': 'off',
+    'max-len': ['warn', { 'code': 120, 'comments': 80 }],
     'object-curly-spacing': ['error', 'always'],
   },
 };

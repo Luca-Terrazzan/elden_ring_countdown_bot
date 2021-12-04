@@ -1,4 +1,5 @@
-import { TestClass } from './src/test';
+import { DiscordService } from './src/discord.service';
 
-const testClass = new TestClass();
-testClass.testMethod();
+const discord = new DiscordService();
+console.log('Discord service is ready:', discord.isReady());
+discord.
